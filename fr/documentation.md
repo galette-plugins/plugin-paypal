@@ -3,7 +3,7 @@ title: Documentation
 description: Paypal integration
 ---
 
-> **Warning**
+> **Attention**
 > 
 > PayPal met fin à son intégration historique de paiement (WPS), la fermeture
 > complète est prévue pour janvier 2027. Ce plugin est **non compatible** avec
@@ -22,7 +22,7 @@ Ce plugin fournit :
 
 ![Paypal payment form (public)](images/public_form.png)
 
-> **Warning**
+> **Attention**
 > 
 > En raison de la façon dont les paiements Paypal sont gérés, notamment la
 > confirmation de paiement, votre instance devra être accessible publiquement.
@@ -31,10 +31,10 @@ Ce plugin fournit :
 
 Tout d'abord, téléchargez le plugin :
 
-* [Get latest Paypal
-  plugin!](https://github.com/galette-plugins/plugin-paypal/releases/latest)
-* [Get Paypal plugin nightly
-  build!](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
+* [Obtenir le dernier plugin Paypal
+  !](https://github.com/galette-plugins/plugin-paypal/releases/latest)
+* [Obtenir la nightly du plugin Paypal
+  !](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
 
 Extrayez l'archive téléchargée dans le dossier `plugins` de Galette. Par
 exemple, sous linux (en remplaçant `{url}` et `{version}` par les valeurs
