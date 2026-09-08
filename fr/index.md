@@ -3,7 +3,7 @@ title: Galette Paypal
 description: Paypal integration
 ---
 
-> **Warning**
+> **Attention**
 > 
 > PayPal met fin à son intégration historique de paiement (WPS), la fermeture
 > complète est prévue pour janvier 2027. Ce plugin est **non compatible** avec
@@ -20,18 +20,19 @@ Ce plugin fournit :
 * le stockage des transactions une fois validées.
 
 * [documentation](documentation.html)
-* [bugs and features](https://bugs.galette.eu/projects/galette-plugin-paypa)
-* [source code](https://github.com/galette-plugins/plugin-paypal)
-* mailing lists:
-  [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
-  [developers](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
+* [bogues et
+  fonctionnalités](https://bugs.galette.eu/projects/galette-plugin-paypa)
+* [code source](https://github.com/galette-plugins/plugin-paypal)
+* listes de diffusion :
+  [utilisateurs](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
+  [développeurs](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
 
-To use it you need a recent enough Galette — the required version is shown at
-the top of this page — and the plugin itself, either by:
+Pour l'utiliser, vous avez besoin d'une Galette assez récente — la version
+requise est affichée en haut de cette page — et le plugin lui-même, soit par :
 
-* downloading it with the buttons at the top of this page,
-* or using the [source code from the
-  repository](https://github.com/galette-plugins/plugin-paypal), which requires
-  some technical skills.
+* le télécharger à l'aide des boutons en haut de la page,
+* ou utiliser le [code source depuis le
+  dépôt](https://github.com/galette-plugins/plugin-paypal), ce qui demandes
+  quelques compétences techniques.
 
-See the [documentation](documentation.html) for the installation steps.
+Voir la [documentation](documentation.html) pour les étapes d'installation.
