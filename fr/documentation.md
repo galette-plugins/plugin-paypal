@@ -1,6 +1,6 @@
 ---
 title: Documentation
-description: Paypal integration
+description: Intégration Paypal
 ---
 
 > **Attention**
@@ -16,11 +16,11 @@ Ce plugin fournit :
 * un historique,
 * le stockage des transactions une fois validées.
 
-![Paypal plugin preferences](images/preferences.png)
+![Les préférences du plugin Paypal](images/preferences.png)
 
-![Paypal payment form](images/form.png)
+![Formulaire de paiement Paypal](images/form.png)
 
-![Paypal payment form (public)](images/public_form.png)
+![Formulaire de paiement Paypal (public)](images/public_form.png)
 
 > **Attention**
 > 
