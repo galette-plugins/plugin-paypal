@@ -1,6 +1,6 @@
 ---
 title: Galette Paypal
-description: Paypal integration
+description: Intégration Paypal
 ---
 
 > **Attention**
@@ -9,8 +9,8 @@ description: Paypal integration
 > complète est prévue pour janvier 2027. Ce plugin est **non compatible** avec
 > toute autre intégration.
 
-A [Galette](https://galette.eu) plugin to let members pay their membership fees
-and donations through Paypal.
+Un plugin [Galette](https://galette.eu) qui permet aux adhérents de payer leurs
+cotisations et effectuer des dons via Paypal.
 
 Ce plugin fournit :
 
