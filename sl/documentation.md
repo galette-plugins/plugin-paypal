@@ -1,13 +1,13 @@
 ---
 title: Dokumentacija
-description: Paypal integration
+description: Paypal integracija
 ---
 
-> **Warning**
+> **Opozorilo**
 > 
-> PayPal is discontinuing its legacy Website Payments Standard (WPS)
-> integration, with full transaction processing termination scheduled for
-> January 2027. This plugin is **not compatible** with any other integration.
+> PayPal opušča svojo podedovano integracijo standarda plačil prek spletnega
+> mesta (WPS), pri čemer je popolna prekinitev obdelave transakcij predvidena za
+> januar 2027. Ta vtičnik **ni združljiv** z nobeno drugo integracijo.
 
 Ta vtičnik ponuja:
 
@@ -16,13 +16,13 @@ Ta vtičnik ponuja:
 * zgodovina,
 * samodejno shranjevanje transakcij po potrditvi.
 
-![Paypal plugin preferences](images/preferences.png)
+![Nastavitve vtičnika Paypal](images/preferences.png)
 
-![Paypal payment form](images/form.png)
+![Paypal obrazec za plačilo](images/form.png)
 
-![Paypal payment form (public)](images/public_form.png)
+![Paypal obrazec za plačilo (javno)](images/public_form.png)
 
-> **Warning**
+> **Opozorilo**
 > 
 > Zaradi načina obdelave plačil prek PayPala, zlasti potrditve plačila, mora
 > biti vaš primerek javno dostopen.
@@ -31,10 +31,10 @@ Ta vtičnik ponuja:
 
 Najprej prenesite vtičnik:
 
-* [Get latest Paypal
-  plugin!](https://github.com/galette-plugins/plugin-paypal/releases/latest)
-* [Get Paypal plugin nightly
-  build!](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
+* [Pridobite najnovejši vtičnik
+  Paypal!](https://github.com/galette-plugins/plugin-paypal/releases/latest)
+* [Pridobite nočno gradnjo vtičnika
+  Paypal!](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
 
 Razširite prenesen arhiv v imenik Galette `plugins`. Na primer v Linuxu
 (zamenjajte `{url}` in `{version}` s pravilnimi vrednostmi):
@@ -55,9 +55,9 @@ In to je končano; vtičnik Paypal je nameščen :)
 
 ## Konfiguracija vtičnika
 
-Ko je vtičnik nameščen, se v meni doda skupina »Paypal« z nekaj novimi vnosi:
+Ko je vtičnik nameščen, je v meni dodana skupina `Paypal` z nekaj novimi vnosi:
 
-* „Plačilni obrazec“: sam plačilni obrazec, ki je dostopen kot javna stran,
+* `Plačilnica`: sama plačilnica, ki je dostopna kot javna stran,
 * `Nastavitve`: nastavitve vtičnikov, dostopne skrbnikom in članom osebja.
 
 Za pravilno delovanje morate vnesti zelo pomembno vrednost: kodo svojega Paypal
@@ -70,7 +70,6 @@ Spreminjanje identifikacijske številke je dovoljeno samo skrbnikom.
 Zaslon z nastavitvami omogoča tudi urejanje zneskov, povezanih z vrstami
 prispevkov, in skrivanje nekaterih vrst.
 
-After that, any user can choose the contribution type, adjust the amount and pay
-from his Paypal account. If the user is a logged in member, and if the
-contribution type is a membership extension, its membership will be recalculated
-when the payment will be confirmed.
+Po tem lahko vsak uporabnik izbere vrsto prispevka, prilagodi znesek in plača s
+svojega Paypal računa. Če je uporabnik prijavljen član in če je vrsta prispevka
+podaljšanje članstva, se njegovo članstvo preračuna, ko bo plačilo potrjeno.
