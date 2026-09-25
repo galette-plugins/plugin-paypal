@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 16:10+0200\n"
+"POT-Creation-Date: 2026-09-25 04:19+0200\n"
 "PO-Revision-Date: 2025-08-07 17:23+0000\n"
 "Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/galette/paypal-"
@@ -20,11 +20,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.13-dev\n"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:70
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:55
 msgid "Paypal payment"
 msgstr "Платіж PayPal"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:81
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:66
 msgid ""
 "<strong>Payment could not work</strong>: An error occurred (that has been "
 "logged) while loading Paypal preferences from database.<br/>Please report "
@@ -34,11 +34,11 @@ msgstr ""
 "журнал) під час завантаження параметрів Paypal з бази даних.<br/> Повідомте "
 "про проблему співробітникам."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:82
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:67
 msgid "Our apologies for the annoyance :("
 msgstr "Наші вибачення за прикрість :("
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:89
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:74
 msgid ""
 "Paypal id has not been defined. Please ask an administrator to add it from "
 "plugin preferences."
@@ -46,123 +46,78 @@ msgstr ""
 "Ідентифікатор Paypal не визначено. Будь ласка, попросіть адміністратора "
 "додати його з налаштувань розширення."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:144
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:56
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:127
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:50
 msgid "Paypal History"
 msgstr "Історія Paypal"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:207
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:186
 msgid "Paypal Settings"
 msgstr "Налаштування Paypal"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:247
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:224
 msgid "Paypal preferences has been saved."
 msgstr "Налаштування Paypal збережено."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:253
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:230
 msgid "An error occurred saving paypal preferences :("
 msgstr "Під час збереження налаштувань PayPal сталася помилка :("
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:274
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:249
 msgid "Your payment has been aborted!"
 msgstr "Ваш платіж перервано!"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:299
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:272
 msgid "Paypal payment success"
 msgstr "Платіж Paypal виконано успішно"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:305
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:278
 msgid "Your payment has been proceeded!"
 msgstr "Ваш платіж продовжено!"
 
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:52
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:46
 msgid "Paypal"
 msgstr "PayPal"
 
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:83
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:107
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:77
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:101
 msgid "Payment form"
 msgstr "Форма платежу"
 
-#: ../tempcache/paypal_success.html.twig:62
-msgid "Your paypal payment was successful. Some details are shown below:"
-msgstr "Ваш платіж PayPal був успішним. Деякі подробиці наведені нижче:"
-
-#: ../tempcache/paypal_success.html.twig:122
-msgid ""
-"Your paypal payment was successful. You may receive a mail from paypal with "
-"details."
-msgstr ""
-"Ваш платіж PayPal був успішним. Ви можете отримати лист із PayPal із "
-"подробицями."
-
-#: ../tempcache/paypal_preferences.html.twig:71
-msgid "Cannot load the preferences"
-msgstr "Не вдається завантажити налаштування"
-
-#: ../tempcache/paypal_preferences.html.twig:77
-msgid "An error occurred while loading the preferences from the database."
-msgstr "Під час завантаження налаштувань з бази даних сталася помилка."
-
-#: ../tempcache/paypal_preferences.html.twig:81
-msgid "Please, check if the plugin's database has been properly initialized."
-msgstr ""
-"Будь ласка, перевірте, чи база даних плагіна була правильно ініціалізована."
-
-#: ../tempcache/paypal_preferences.html.twig:96
-msgid "Paypal identifier:"
-msgstr "Ідентифікатор PayPal:"
-
-#: ../tempcache/paypal_preferences.html.twig:96
-msgid ""
-"Enter here one of your Paypal ID or email adress associated within your "
-"paypal account."
-msgstr ""
-"Уведіть тут один з ваших Paypal ID або адресу е-пошти, пов'язаний з вашим "
-"рахунком Paypal."
-
-#: ../tempcache/paypal_preferences.html.twig:120
-msgid "Amounts can be defined in the contributions types settings."
-msgstr "Суми можна визначити в налаштуваннях типів внесків."
-
-#: ../tempcache/paypal_preferences.html.twig:184
-msgid "Error: no predefined amounts found."
-msgstr "Помилка: заздалегідь визначені суми не знайдені."
-
-#: ../tempcache/paypal_form.html.twig:74
+#: ../templates/default/paypal_form.html.twig:14
 msgid "Enter payment reason"
 msgstr "Уведіть причину платежу"
 
-#: ../tempcache/paypal_form.html.twig:81
+#: ../templates/default/paypal_form.html.twig:16
 msgid "Payment reason"
 msgstr "Причина платежу"
 
-#: ../tempcache/paypal_form.html.twig:88
+#: ../templates/default/paypal_form.html.twig:18
 msgid "Select a payment reason"
 msgstr "Оберіть причину платежу"
 
-#: ../tempcache/paypal_form.html.twig:183
+#: ../templates/default/paypal_form.html.twig:44
 msgid "Payment reason:"
 msgstr "Причина платежу:"
 
-#: ../tempcache/paypal_form.html.twig:215
+#: ../templates/default/paypal_form.html.twig:60
 msgid "Pay with paypal"
 msgstr "Оплата через PayPal"
 
-#: ../tempcache/paypal_form.html.twig:271
+#: ../templates/default/paypal_form.html.twig:82
 #, php-format
 msgid "Go back to %s's website to complete your inscription."
 msgstr "Поверніться на сайт %s, щоб заповнити своє написання."
 
-#: ../tempcache/paypal_form.html.twig:310
+#: ../templates/default/paypal_form.html.twig:104
 msgid "You have to select an option"
 msgstr "Вам потрібно вибрати опцію"
 
-#: ../tempcache/paypal_form.html.twig:319
+#: ../templates/default/paypal_form.html.twig:110
 msgid "Please enter an amount."
 msgstr "Уведіть суму."
 
-#: ../tempcache/paypal_form.html.twig:325
+#: ../templates/default/paypal_form.html.twig:113
 msgid ""
 "The amount you've entered is lower than the minimum amount for the selected "
 "option.\n"
@@ -171,23 +126,68 @@ msgstr ""
 "Уведена сума нижча за мінімальну для обраного варіанту.\n"
 "Виберіть інший варіант або змініть суму."
 
-#: ../tempcache/paypal_history.html.twig:89
-#: ../tempcache/paypal_history.html.twig:235
+#: ../templates/default/paypal_preferences.html.twig:16
+msgid "Cannot load the preferences"
+msgstr "Не вдається завантажити налаштування"
+
+#: ../templates/default/paypal_preferences.html.twig:19
+msgid "An error occurred while loading the preferences from the database."
+msgstr "Під час завантаження налаштувань з бази даних сталася помилка."
+
+#: ../templates/default/paypal_preferences.html.twig:20
+msgid "Please, check if the plugin's database has been properly initialized."
+msgstr ""
+"Будь ласка, перевірте, чи база даних плагіна була правильно ініціалізована."
+
+#: ../templates/default/paypal_preferences.html.twig:29
+msgid "Paypal identifier:"
+msgstr "Ідентифікатор PayPal:"
+
+#: ../templates/default/paypal_preferences.html.twig:29
+msgid ""
+"Enter here one of your Paypal ID or email adress associated within your "
+"paypal account."
+msgstr ""
+"Уведіть тут один з ваших Paypal ID або адресу е-пошти, пов'язаний з вашим "
+"рахунком Paypal."
+
+#: ../templates/default/paypal_preferences.html.twig:43
+msgid "Amounts can be defined in the contributions types settings."
+msgstr "Суми можна визначити в налаштуваннях типів внесків."
+
+#: ../templates/default/paypal_preferences.html.twig:68
+msgid "Error: no predefined amounts found."
+msgstr "Помилка: заздалегідь визначені суми не знайдені."
+
+#: ../templates/default/paypal_history.html.twig:29
+#: ../templates/default/paypal_history.html.twig:96
 msgid "Request"
 msgstr "Запит"
 
-#: ../tempcache/paypal_history.html.twig:151
-#: ../tempcache/paypal_history.html.twig:156
+#: ../templates/default/paypal_history.html.twig:67
+#: ../templates/default/paypal_history.html.twig:69
 msgid "duplicate"
 msgstr "подвоєння"
 
-#: ../tempcache/paypal_history.html.twig:197
+#: ../templates/default/paypal_history.html.twig:83
 msgid "No request or unable to read request"
 msgstr "Немає запиту або неможливо прочитати запит"
 
-#: ../tempcache/paypal_history.html.twig:241
+#: ../templates/default/paypal_history.html.twig:99
 msgid "Show/hide full request"
 msgstr "Показ/ховання повного запиту"
+
+#: ../templates/default/paypal_success.html.twig:11
+msgid "Your paypal payment was successful. Some details are shown below:"
+msgstr "Ваш платіж PayPal був успішним. Деякі подробиці наведені нижче:"
+
+#: ../templates/default/paypal_success.html.twig:35
+msgid ""
+"Your paypal payment was successful. You may receive a mail from paypal with "
+"details."
+msgstr ""
+"Ваш платіж PayPal був успішним. Ви можете отримати лист із PayPal із "
+"подробицями."
 
 #~ msgid "Predefined amounts cannot be loaded, that is not a critical error."
 #~ msgstr ""
