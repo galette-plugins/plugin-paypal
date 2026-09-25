@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 16:10+0200\n"
+"POT-Creation-Date: 2026-09-25 04:19+0200\n"
 "PO-Revision-Date: 2026-03-02 20:00+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/galette/paypal-"
@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17-dev\n"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:70
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:55
 msgid "Paypal payment"
 msgstr "பேபால் கட்டணம்"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:81
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:66
 msgid ""
 "<strong>Payment could not work</strong>: An error occurred (that has been "
 "logged) while loading Paypal preferences from database.<br/>Please report "
@@ -34,11 +34,11 @@ msgstr ""
 "விருப்பங்களை ஏற்றும்போது பிழை ஏற்பட்டது (அது உள்நுழைந்தது).<br/>தயவுசெய்து சிக்கலை "
 "ஊழியர்களிடம் புகாரளிக்கவும்."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:82
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:67
 msgid "Our apologies for the annoyance :("
 msgstr "எரிச்சலுக்கான எங்கள் மன்னிப்பு :("
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:89
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:74
 msgid ""
 "Paypal id has not been defined. Please ask an administrator to add it from "
 "plugin preferences."
@@ -46,123 +46,78 @@ msgstr ""
 "பேபால் ஐடி வரையறுக்கப்படவில்லை. சொருகி விருப்பங்களிலிருந்து சேர்க்க ஒரு நிர்வாகியிடம் "
 "கேளுங்கள்."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:144
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:56
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:127
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:50
 msgid "Paypal History"
 msgstr "பேபால் வரலாறு"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:207
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:186
 msgid "Paypal Settings"
 msgstr "பேபால் அமைப்புகள்"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:247
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:224
 msgid "Paypal preferences has been saved."
 msgstr "பேபால் விருப்பத்தேர்வுகள் சேமிக்கப்பட்டுள்ளன."
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:253
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:230
 msgid "An error occurred saving paypal preferences :("
 msgstr "பேபால் விருப்பங்களைச் சேமிப்பதில் பிழை ஏற்பட்டது :("
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:274
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:249
 msgid "Your payment has been aborted!"
 msgstr "உங்கள் கட்டணம் கைவிடப்பட்டது!"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:299
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:272
 msgid "Paypal payment success"
 msgstr "பேபால் கட்டண செய்"
 
-#: ../lib/GalettePaypal/Controllers/PaypalController.php:305
+#: ../lib/GalettePaypal/Controllers/PaypalController.php:278
 msgid "Your payment has been proceeded!"
 msgstr "உங்கள் கட்டணம் தொடரப்பட்டது!"
 
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:52
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:46
 msgid "Paypal"
 msgstr "பேபால்"
 
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:83
-#: ../lib/GalettePaypal/PluginGalettePaypal.php:107
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:77
+#: ../lib/GalettePaypal/PluginGalettePaypal.php:101
 msgid "Payment form"
 msgstr "கட்டண படிவம்"
 
-#: ../tempcache/paypal_success.html.twig:62
-msgid "Your paypal payment was successful. Some details are shown below:"
-msgstr "உங்கள் பேபால் கட்டணம் வெற்றிகரமாக இருந்தது. சில விவரங்கள் கீழே காட்டப்பட்டுள்ளன:"
-
-#: ../tempcache/paypal_success.html.twig:122
-msgid ""
-"Your paypal payment was successful. You may receive a mail from paypal with "
-"details."
-msgstr ""
-"உங்கள் பேபால் கட்டணம் வெற்றிகரமாக இருந்தது. விவரங்களுடன் பேபால் இருந்து ஒரு அஞ்சலைப் "
-"பெறலாம்."
-
-#: ../tempcache/paypal_preferences.html.twig:71
-msgid "Cannot load the preferences"
-msgstr "விருப்பங்களை ஏற்ற முடியாது"
-
-#: ../tempcache/paypal_preferences.html.twig:77
-msgid "An error occurred while loading the preferences from the database."
-msgstr "தரவுத்தளத்திலிருந்து விருப்பத்தேர்வுகளை ஏற்றும்போது பிழை ஏற்பட்டது."
-
-#: ../tempcache/paypal_preferences.html.twig:81
-msgid "Please, check if the plugin's database has been properly initialized."
-msgstr ""
-"தயவு செய்து, செருகுநிரலின் தரவுத்தளம் சரியாக துவக்கப்பட்டுள்ளதா என சரிபார்க்கவும்."
-
-#: ../tempcache/paypal_preferences.html.twig:96
-msgid "Paypal identifier:"
-msgstr "பேபால் அடையாளங்காட்டி:"
-
-#: ../tempcache/paypal_preferences.html.twig:96
-msgid ""
-"Enter here one of your Paypal ID or email adress associated within your "
-"paypal account."
-msgstr ""
-"உங்கள் பேபால் கணக்குடன் தொடர்புடைய உங்கள் பேபால் ஐடி அல்லது மின்னஞ்சல் முகவரியில் ஒன்றை "
-"இங்கே உள்ளிடவும்."
-
-#: ../tempcache/paypal_preferences.html.twig:120
-msgid "Amounts can be defined in the contributions types settings."
-msgstr "பங்களிப்புகள் வகை அமைப்புகளில் தொகைகளை வரையறுக்கலாம்."
-
-#: ../tempcache/paypal_preferences.html.twig:184
-msgid "Error: no predefined amounts found."
-msgstr "பிழை: முன் வரையறுக்கப்பட்ட தொகைகள் எதுவும் கிடைக்கவில்லை."
-
-#: ../tempcache/paypal_form.html.twig:74
+#: ../templates/default/paypal_form.html.twig:14
 msgid "Enter payment reason"
 msgstr "கட்டண காரணத்தை உள்ளிடவும்"
 
-#: ../tempcache/paypal_form.html.twig:81
+#: ../templates/default/paypal_form.html.twig:16
 msgid "Payment reason"
 msgstr "கட்டண காரணம்"
 
-#: ../tempcache/paypal_form.html.twig:88
+#: ../templates/default/paypal_form.html.twig:18
 msgid "Select a payment reason"
 msgstr "கட்டண காரணத்தைத் தேர்ந்தெடுக்கவும்"
 
-#: ../tempcache/paypal_form.html.twig:183
+#: ../templates/default/paypal_form.html.twig:44
 msgid "Payment reason:"
 msgstr "கட்டண காரணம்:"
 
-#: ../tempcache/paypal_form.html.twig:215
+#: ../templates/default/paypal_form.html.twig:60
 msgid "Pay with paypal"
 msgstr "பேபால் மூலம் பணம் செலுத்துங்கள்"
 
-#: ../tempcache/paypal_form.html.twig:271
+#: ../templates/default/paypal_form.html.twig:82
 #, php-format
 msgid "Go back to %s's website to complete your inscription."
 msgstr "உங்கள் கல்வெட்டை முடிக்க %s இன் வலைத்தளத்திற்குச் செல்லவும்."
 
-#: ../tempcache/paypal_form.html.twig:310
+#: ../templates/default/paypal_form.html.twig:104
 msgid "You have to select an option"
 msgstr "நீங்கள் ஒரு விருப்பத்தைத் தேர்ந்தெடுக்க வேண்டும்"
 
-#: ../tempcache/paypal_form.html.twig:319
+#: ../templates/default/paypal_form.html.twig:110
 msgid "Please enter an amount."
 msgstr "தயவுசெய்து ஒரு தொகையை உள்ளிடவும்."
 
-#: ../tempcache/paypal_form.html.twig:325
+#: ../templates/default/paypal_form.html.twig:113
 msgid ""
 "The amount you've entered is lower than the minimum amount for the selected "
 "option.\n"
@@ -172,23 +127,68 @@ msgstr ""
 "உள்ளது.\n"
 " தயவுசெய்து மற்றொரு விருப்பத்தைத் தேர்வுசெய்க அல்லது தொகையை மாற்றவும்."
 
-#: ../tempcache/paypal_history.html.twig:89
-#: ../tempcache/paypal_history.html.twig:235
+#: ../templates/default/paypal_preferences.html.twig:16
+msgid "Cannot load the preferences"
+msgstr "விருப்பங்களை ஏற்ற முடியாது"
+
+#: ../templates/default/paypal_preferences.html.twig:19
+msgid "An error occurred while loading the preferences from the database."
+msgstr "தரவுத்தளத்திலிருந்து விருப்பத்தேர்வுகளை ஏற்றும்போது பிழை ஏற்பட்டது."
+
+#: ../templates/default/paypal_preferences.html.twig:20
+msgid "Please, check if the plugin's database has been properly initialized."
+msgstr ""
+"தயவு செய்து, செருகுநிரலின் தரவுத்தளம் சரியாக துவக்கப்பட்டுள்ளதா என சரிபார்க்கவும்."
+
+#: ../templates/default/paypal_preferences.html.twig:29
+msgid "Paypal identifier:"
+msgstr "பேபால் அடையாளங்காட்டி:"
+
+#: ../templates/default/paypal_preferences.html.twig:29
+msgid ""
+"Enter here one of your Paypal ID or email adress associated within your "
+"paypal account."
+msgstr ""
+"உங்கள் பேபால் கணக்குடன் தொடர்புடைய உங்கள் பேபால் ஐடி அல்லது மின்னஞ்சல் முகவரியில் ஒன்றை "
+"இங்கே உள்ளிடவும்."
+
+#: ../templates/default/paypal_preferences.html.twig:43
+msgid "Amounts can be defined in the contributions types settings."
+msgstr "பங்களிப்புகள் வகை அமைப்புகளில் தொகைகளை வரையறுக்கலாம்."
+
+#: ../templates/default/paypal_preferences.html.twig:68
+msgid "Error: no predefined amounts found."
+msgstr "பிழை: முன் வரையறுக்கப்பட்ட தொகைகள் எதுவும் கிடைக்கவில்லை."
+
+#: ../templates/default/paypal_history.html.twig:29
+#: ../templates/default/paypal_history.html.twig:96
 msgid "Request"
 msgstr "கோரிக்கை"
 
-#: ../tempcache/paypal_history.html.twig:151
-#: ../tempcache/paypal_history.html.twig:156
+#: ../templates/default/paypal_history.html.twig:67
+#: ../templates/default/paypal_history.html.twig:69
 msgid "duplicate"
 msgstr "நகல்"
 
-#: ../tempcache/paypal_history.html.twig:197
+#: ../templates/default/paypal_history.html.twig:83
 msgid "No request or unable to read request"
 msgstr "கோரிக்கை இல்லை அல்லது கோரிக்கையைப் படிக்க முடியவில்லை"
 
-#: ../tempcache/paypal_history.html.twig:241
+#: ../templates/default/paypal_history.html.twig:99
 msgid "Show/hide full request"
 msgstr "முழு கோரிக்கையையும் காட்டவும்/மறைக்கவும்"
+
+#: ../templates/default/paypal_success.html.twig:11
+msgid "Your paypal payment was successful. Some details are shown below:"
+msgstr "உங்கள் பேபால் கட்டணம் வெற்றிகரமாக இருந்தது. சில விவரங்கள் கீழே காட்டப்பட்டுள்ளன:"
+
+#: ../templates/default/paypal_success.html.twig:35
+msgid ""
+"Your paypal payment was successful. You may receive a mail from paypal with "
+"details."
+msgstr ""
+"உங்கள் பேபால் கட்டணம் வெற்றிகரமாக இருந்தது. விவரங்களுடன் பேபால் இருந்து ஒரு அஞ்சலைப் "
+"பெறலாம்."
 
 #~ msgid "Predefined amounts cannot be loaded, that is not a critical error."
 #~ msgstr "முன் வரையறுக்கப்பட்ட அளவுகளை ஏற்ற முடியாது, அது ஒரு முக்கியமான பிழை அல்ல."
