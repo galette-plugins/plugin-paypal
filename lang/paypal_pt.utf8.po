@@ -4,13 +4,14 @@
 # Languages add-on <noreply-addon-languages@weblate.org>, 2024.
 # Manuela Silva <mmsrs@sky.com>, 2024.
 # Edson Wolf <edsonwolf@vivaldi.net>, 2026.
+# Johan Cwiklinski <trasher@x-tnd.be>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
 "POT-Creation-Date: 2026-09-27 18:16+0200\n"
-"PO-Revision-Date: 2026-03-30 16:09+0000\n"
-"Last-Translator: Edson Wolf <edsonwolf@vivaldi.net>\n"
+"PO-Revision-Date: 2026-09-29 20:13+0000\n"
+"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/galette/"
 "paypal-plugin/pt/>\n"
 "Language: pt\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: ../lib/GalettePaypal/Controllers/PaypalController.php:55
 msgid "Paypal payment"
@@ -138,7 +139,7 @@ msgstr "Ocorreu um erro ao carregar as preferências do banco de dados"
 msgid "Please, check if the plugin's database has been properly initialized."
 msgstr ""
 "Por favor, verifique se o banco de dados do plugin foi inicializado "
-"corretamente"
+"corretamente."
 
 #: ../templates/default/paypal_preferences.html.twig:29
 msgid "Paypal identifier:"
