@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: translations@galette.eu\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-27 18:16+0200\n"
 "PO-Revision-Date: 2026-09-29 20:13+0000\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>\n"
