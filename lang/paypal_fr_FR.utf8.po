@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: translations@galette.eu\n"
 "POT-Creation-Date: 2026-09-30 14:02+0200\n"
-"PO-Revision-Date: 2026-09-30 06:25+0000\n"
+"PO-Revision-Date: 2026-10-01 05:42+0000\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/galette/paypal-"
 "plugin/fr/>\n"
@@ -171,10 +171,8 @@ msgstr "Requête"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-#, fuzzy
-#| msgid "duplicate"
 msgid "Duplicate entry"
-msgstr "dupliquer"
+msgstr "Doublon"
 
 #: ../templates/default/paypal_history.html.twig:83
 msgid "No request or unable to read request"
