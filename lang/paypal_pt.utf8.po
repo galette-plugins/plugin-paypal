@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translations@galette.eu\n"
-"POT-Creation-Date: 2026-09-27 18:16+0200\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
 "PO-Revision-Date: 2026-09-30 12:45+0000\n"
 "Last-Translator: Guillaume AGNIERAY <dev@agnieray.net>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/galette/"
@@ -170,7 +170,9 @@ msgstr "Solicitar"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-msgid "duplicate"
+#, fuzzy
+#| msgid "duplicate"
+msgid "Duplicate entry"
 msgstr "duplicar"
 
 #: ../templates/default/paypal_history.html.twig:83

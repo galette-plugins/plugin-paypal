@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 18:16+0200\n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
 "PO-Revision-Date: 2026-03-02 20:00+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/galette/paypal-"
@@ -167,7 +167,9 @@ msgstr "கோரிக்கை"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-msgid "duplicate"
+#, fuzzy
+#| msgid "duplicate"
+msgid "Duplicate entry"
 msgstr "நகல்"
 
 #: ../templates/default/paypal_history.html.twig:83
