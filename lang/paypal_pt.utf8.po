@@ -5,13 +5,14 @@
 # Manuela Silva <mmsrs@sky.com>, 2024.
 # Edson Wolf <edsonwolf@vivaldi.net>, 2026.
 # Johan Cwiklinski <trasher@x-tnd.be>, 2026.
+# Guillaume AGNIERAY <dev@agnieray.net>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
 "POT-Creation-Date: 2026-09-27 18:16+0200\n"
-"PO-Revision-Date: 2026-09-29 20:13+0000\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>\n"
+"PO-Revision-Date: 2026-09-30 12:45+0000\n"
+"Last-Translator: Guillaume AGNIERAY <dev@agnieray.net>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/galette/"
 "paypal-plugin/pt/>\n"
 "Language: pt\n"
@@ -156,7 +157,7 @@ msgstr ""
 #: ../templates/default/paypal_preferences.html.twig:43
 msgid "Amounts can be defined in the contributions types settings."
 msgstr ""
-"Os valores podem ser definidos nas configurações dos tipos de contribuição"
+"Os valores podem ser definidos nas configurações dos tipos de contribuição."
 
 #: ../templates/default/paypal_preferences.html.twig:68
 msgid "Error: no predefined amounts found."
