@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translations@galette.eu\n"
-"POT-Creation-Date: 2026-09-30 12:09+0200\n"
-"PO-Revision-Date: 2026-09-30 12:09+0200\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
+"PO-Revision-Date: 2026-09-30 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -163,8 +163,8 @@ msgstr "Request"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-msgid "duplicate"
-msgstr "duplicate"
+msgid "Duplicate entry"
+msgstr "Duplicate entry"
 
 #: ../templates/default/paypal_history.html.twig:83
 msgid "No request or unable to read request"

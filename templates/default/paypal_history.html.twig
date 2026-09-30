@@ -64,9 +64,9 @@
             <td class="collapsing" data-col-label="{{ _T("Date") }}">
                 {{ log.history_date|date(_T("Y-m-d H:i:s")) }}
                 {% if log.duplicate is defined %}
-                    <i class="exclamation circle red icon tooltip" data-html="{{ _T("duplicate", "paypal") }}"></i>
+                    <i class="exclamation circle red icon tooltip" data-html="{{ _T("Duplicate entry", "paypal") }}"></i>
                     <span class="visually-hidden">
-                        {{ _T("duplicate", "paypal") }}
+                        {{ _T("Duplicate entry", "paypal") }}
                     </span>
                 {% endif %}
             </td>
