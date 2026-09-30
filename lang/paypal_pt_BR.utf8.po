@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 18:16+0200\n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
 "PO-Revision-Date: 2026-05-09 18:11+0000\n"
 "Last-Translator: Edson Wolf <edsonwolf@vivaldi.net>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -167,7 +167,9 @@ msgstr "Solicitar"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-msgid "duplicate"
+#, fuzzy
+#| msgid "duplicate"
+msgid "Duplicate entry"
 msgstr "Duplicado"
 
 #: ../templates/default/paypal_history.html.twig:83

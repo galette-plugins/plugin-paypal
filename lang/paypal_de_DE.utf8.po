@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 18:16+0200\n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
 "PO-Revision-Date: 2025-08-12 11:02+0000\n"
 "Last-Translator: rabbitmc <weblate@sternwelt.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/galette/paypal-"
@@ -168,7 +168,7 @@ msgstr "Anfrage"
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
 #, fuzzy
-msgid "duplicate"
+msgid "Duplicate entry"
 msgstr "Duplikat"
 
 #: ../templates/default/paypal_history.html.twig:83

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 18:16+0200\n"
+"Report-Msgid-Bugs-To: translations@galette.eu\n"
+"POT-Creation-Date: 2026-09-30 14:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-msgid "duplicate"
+msgid "Duplicate entry"
 msgstr ""
 
 #: ../templates/default/paypal_history.html.twig:83
