@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translations@galette.eu\n"
 "POT-Creation-Date: 2026-09-30 14:02+0200\n"
-"PO-Revision-Date: 2026-09-23 14:08+0000\n"
+"PO-Revision-Date: 2026-10-03 12:35+0000\n"
 "Last-Translator: Jože Felicijan <joze@felicijan.com>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/galette/paypal-"
 "plugin/sl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
 
 #: ../lib/GalettePaypal/Controllers/PaypalController.php:55
 msgid "Paypal payment"
@@ -93,7 +93,7 @@ msgstr "Razlog za plačilo"
 
 #: ../templates/default/paypal_form.html.twig:18
 msgid "Select a payment reason"
-msgstr "Izberite razlog za plačilo"
+msgstr "Izberite razlog plačila"
 
 #: ../templates/default/paypal_form.html.twig:44
 msgid "Payment reason:"
@@ -114,7 +114,7 @@ msgstr "Izbrati morate možnost"
 
 #: ../templates/default/paypal_form.html.twig:110
 msgid "Please enter an amount."
-msgstr "Prosimo, vnesite znesek."
+msgstr "Vnesite znesek."
 
 #: ../templates/default/paypal_form.html.twig:113
 msgid ""
@@ -166,10 +166,8 @@ msgstr "Zahteva"
 
 #: ../templates/default/paypal_history.html.twig:67
 #: ../templates/default/paypal_history.html.twig:69
-#, fuzzy
-#| msgid "duplicate"
 msgid "Duplicate entry"
-msgstr "dvojnik"
+msgstr "Podvojen vnos"
 
 #: ../templates/default/paypal_history.html.twig:83
 msgid "No request or unable to read request"
