@@ -1,22 +1,9 @@
 <?php
 
 /**
- * Copyright © 2003-2025 The Galette Team
- *
- * This file is part of Galette (https://galette.eu).
- *
- * Galette is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Galette is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Galette. If not, see <http://www.gnu.org/licenses/>.
+ * This file is part of Galette Paypal plugin (https://galette.eu).
+ * SPDX-FileCopyrightText: Copyright © 2011-2026 The Galette Team
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 declare(strict_types=1);
@@ -36,10 +23,10 @@ use Galette\Entity\ContributionsTypes;
  */
 class Paypal
 {
-    public const TABLE = 'preferences';
+    public const string TABLE = 'preferences';
 
-    public const PAYMENT_PENDING = 'Pending';
-    public const PAYMENT_COMPLETE = 'Complete';
+    public const string PAYMENT_PENDING = 'Pending';
+    public const string PAYMENT_COMPLETE = 'Complete';
 
     private Db $zdb;
 
@@ -69,8 +56,6 @@ class Paypal
 
     /**
      * Load preferences form the database and amounts from core contributions types
-     *
-     * @return void
      */
     public function load(): void
     {
@@ -111,8 +96,6 @@ class Paypal
 
     /**
      * Load amounts from core contributions types
-     *
-     * @return void
      */
     private function loadContributionsTypes(): void
     {
@@ -134,8 +117,6 @@ class Paypal
 
     /**
      * Store values in the database
-     *
-     * @return bool
      */
     public function store(): bool
     {
@@ -189,8 +170,6 @@ class Paypal
 
     /**
      * Get Paypal identifier
-     *
-     * @return string
      */
     public function getId(): ?string
     {
@@ -229,8 +208,6 @@ class Paypal
 
     /**
      * Is the plugin loaded?
-     *
-     * @return bool
      */
     public function isLoaded(): bool
     {
@@ -239,8 +216,6 @@ class Paypal
 
     /**
      * Are amounts loaded?
-     *
-     * @return bool
      */
     public function areAmountsLoaded(): bool
     {
@@ -251,8 +226,6 @@ class Paypal
      * Set paypal identifier
      *
      * @param string $id identifier
-     *
-     * @return void
      */
     public function setId(string $id): void
     {
@@ -264,8 +237,6 @@ class Paypal
      *
      * @param array<int, string> $ids     array of identifier
      * @param array<int, string> $amounts array of amounts
-     *
-     * @return void
      */
     public function setPrices(array $ids, array $amounts): void
     {
@@ -279,8 +250,6 @@ class Paypal
      * Check if the specified contribution is active
      *
      * @param int $id type identifier
-     *
-     * @return bool
      */
     public function isInactive(int $id): bool
     {
@@ -291,8 +260,6 @@ class Paypal
      * Set inactives types
      *
      * @param array<int, string> $inactives array of inactives types
-     *
-     * @return void
      */
     public function setInactives(array $inactives): void
     {
@@ -301,8 +268,6 @@ class Paypal
 
     /**
      * Unset inactives types
-     *
-     * @return void
      */
     public function unsetInactives(): void
     {
@@ -311,8 +276,6 @@ class Paypal
 
     /**
      * Get the URL to use for Paypal
-     *
-     * @return string
      */
     public function getFormURL(): string
     {
@@ -323,8 +286,6 @@ class Paypal
 
     /**
      * Get the URL for Paypal IPN validation
-     *
-     * @return string
      */
     public function getIPNValidationURL(): string
     {
@@ -337,8 +298,6 @@ class Paypal
      * Validate IPN data
      *
      * @param array<string, string> $data POST data received from Paypal
-     *
-     * @return bool
      */
     public function validateIPN(array $data): bool
     {
@@ -359,8 +318,6 @@ class Paypal
      * Validate this is our account
      *
      * @param array<string, string> $data POST data received from Paypal
-     *
-     * @return bool
      */
     public function validateAccount(array $data): bool
     {
@@ -371,8 +328,6 @@ class Paypal
      * Validate request data
      *
      * @param array<string, mixed> $data POST data received from Paypal
-     *
-     * @return bool
      */
     public function validateRequest(array $data): bool
     {
@@ -383,8 +338,6 @@ class Paypal
      * Validate Paypal request
      *
      * @param array<string, mixed> $data POST data received from Paypal
-     *
-     * @return bool
      */
     public function validate(array $data): bool
     {

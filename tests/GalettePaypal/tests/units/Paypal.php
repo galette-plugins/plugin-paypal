@@ -1,27 +1,16 @@
 <?php
 
 /**
- * Copyright © 2003-2025 The Galette Team
- *
- * This file is part of Galette (https://galette.eu).
- *
- * Galette is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Galette is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Galette. If not, see <http://www.gnu.org/licenses/>.
+ * This file is part of Galette Paypal plugin (https://galette.eu).
+ * SPDX-FileCopyrightText: Copyright © 2011-2026 The Galette Team
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
+
+declare(strict_types=1);
 
 namespace GalettePaypal\tests\units;
 
-use Galette\GaletteTestCase;
+use Galette\Tests\GaletteTestCase;
 
 /**
  * Paypal tests
@@ -33,21 +22,7 @@ class Paypal extends GaletteTestCase
     protected int $seed = 20240518135530;
 
     /**
-     * Cleanup after each test method
-     *
-     * @return void
-     */
-    public function tearDown(): void
-    {
-        $delete = $this->zdb->delete(PAYPAL_PREFIX . \GalettePaypal\Paypal::TABLE);
-        $this->zdb->execute($delete);
-        parent::tearDown();
-    }
-
-    /**
      * Test empty
-     *
-     * @return void
      */
     public function testEmpty(): void
     {
@@ -66,6 +41,7 @@ class Paypal extends GaletteTestCase
                     'amount' => null,
                     'extra' => '0',
                     'text_orig' => 'donation in money',
+                    'description' => '',
                 ]
             ],
             $amounts
@@ -77,8 +53,6 @@ class Paypal extends GaletteTestCase
 
     /**
      * Test getFormURL method
-     *
-     * @return void
      */
     public function testGetFormURL(): void
     {
@@ -91,8 +65,6 @@ class Paypal extends GaletteTestCase
 
     /**
      * Test IPNValidationURL method
-     *
-     * @return void
      */
     public function testGetIPNValidationURL(): void
     {
@@ -105,8 +77,6 @@ class Paypal extends GaletteTestCase
 
     /**
      * Test validateRequest method
-     *
-     * @return void
      */
     public function testValidateRequest(): void
     {

@@ -1,22 +1,9 @@
 <?php
 
 /**
- * Copyright © 2003-2025 The Galette Team
- *
- * This file is part of Galette (https://galette.eu).
- *
- * Galette is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Galette is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Galette. If not, see <http://www.gnu.org/licenses/>.
+ * This file is part of Galette Paypal plugin (https://galette.eu).
+ * SPDX-FileCopyrightText: Copyright © 2011-2026 The Galette Team
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 declare(strict_types=1);
@@ -39,15 +26,15 @@ use Galette\Filters\HistoryList;
  */
 class PaypalHistory extends History
 {
-    public const TABLE = 'history';
-    public const PK = 'id_paypal';
+    public const string TABLE = 'history';
+    public const string PK = 'id_paypal';
 
-    public const STATE_NONE = 0;
-    public const STATE_PROCESSED = 1;
-    public const STATE_DONE = 2;
-    public const STATE_ERROR = 3;
-    public const STATE_INCOMPLETE = 4;
-    public const STATE_ALREADYDONE = 5;
+    public const int STATE_NONE = 0;
+    public const int STATE_PROCESSED = 1;
+    public const int STATE_DONE = 2;
+    public const int STATE_ERROR = 3;
+    public const int STATE_INCOMPLETE = 4;
+    public const int STATE_ALREADYDONE = 5;
 
     private int $id;
 
@@ -111,8 +98,6 @@ class PaypalHistory extends History
      * Get table's name
      *
      * @param bool $prefixed Whether table name should be prefixed
-     *
-     * @return string
      */
     protected function getTableName(bool $prefixed = false): string
     {
@@ -125,8 +110,6 @@ class PaypalHistory extends History
 
     /**
      * Get table's PK
-     *
-     * @return string
      */
     protected function getPk(): string
     {
@@ -193,8 +176,6 @@ class PaypalHistory extends History
      * Is payment already processed?
      *
      * @param string $sign Verify sign paypal parameter
-     *
-     * @return bool
      */
     public function isProcessed(string $sign): bool
     {
@@ -212,8 +193,6 @@ class PaypalHistory extends History
      * Set payment state
      *
      * @param int $state State, one of self::STATE_ constants
-     *
-     * @return bool
      */
     public function setState(int $state): bool
     {

@@ -1,26 +1,14 @@
 <?php
 
 /**
- * Copyright © 2003-2025 The Galette Team
- *
- * This file is part of Galette (https://galette.eu).
- *
- * Galette is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Galette is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Galette. If not, see <http://www.gnu.org/licenses/>.
+ * This file is part of Galette Paypal plugin (https://galette.eu).
+ * SPDX-FileCopyrightText: Copyright © 2011-2026 The Galette Team
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 declare(strict_types=1);
 
+use Galette\Middleware\Authenticate;
 use GalettePaypal\Controllers\PaypalController;
 
 //Constants and classes from plugin
@@ -29,12 +17,12 @@ require_once $module['root'] . '/_config.inc.php';
 $app->get(
     '/preferences',
     [PaypalController::class, 'preferences']
-)->setName('paypal_preferences')->add($authenticate);
+)->setName('paypal_preferences')->add(Authenticate::class);
 
 $app->post(
     '/preferences',
     [PaypalController::class, 'storePreferences']
-)->setName('store_paypal_preferences')->add($authenticate);
+)->setName('store_paypal_preferences')->add(Authenticate::class);
 
 $app->get(
     '/form',
@@ -59,10 +47,10 @@ $app->post(
 $app->get(
     '/logs[/{option:order|reset|page}/{value}]',
     [PaypalController::class, 'logs']
-)->setName('paypal_history')->add($authenticate);
+)->setName('paypal_history')->add(Authenticate::class);
 
 //history filtering
 $app->post(
     '/history/filter',
     [PaypalController::class, 'filter']
-)->setName('filter_paypal_history')->add($authenticate);
+)->setName('filter_paypal_history')->add(Authenticate::class);
