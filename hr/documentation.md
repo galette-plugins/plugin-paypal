@@ -1,43 +1,43 @@
 ---
-title: Documentation
-description: Paypal integration
+title: Dokumentacija
+description: Integracija s PayPalom
 ---
 
-> **Warning**
+> **Upozorenje**
 > 
-> PayPal is discontinuing its legacy Website Payments Standard (WPS)
-> integration, with full transaction processing termination scheduled for
-> January 2027. This plugin is **not compatible** with any other integration.
+> PayPal ukida staru integraciju Website Payments Standard (WPS), a potpuni
+> prestanak obrade transakcija planiran je za siječanj 2027. Dodatak **nije
+> kompatibilan** ni s jednom drugom integracijom.
 
-This plugin provides:
+Dodatak omogućuje:
 
-* possibility to associate an amount to a contribution type,
-* create a Paypal payment form,
-* an history,
-* automatic transaction storage once validated.
+* pridruživanje iznosa vrsti uplate,
+* izradu obrasca za plaćanje putem PayPala,
+* pregled povijesti,
+* automatsko spremanje transakcije nakon potvrde.
 
-![Paypal plugin preferences](images/preferences.png)
+![Postavke dodatka PayPal](images/preferences.png)
 
-![Paypal payment form](images/form.png)
+![Obrazac za plaćanje putem PayPala](images/form.png)
 
-![Paypal payment form (public)](images/public_form.png)
+![Obrazac za plaćanje putem PayPala (javni)](images/public_form.png)
 
-> **Warning**
+> **Upozorenje**
 > 
-> Due to the way Paypal payments are handled, especially the payment
-> confirmation, your instance must be publicly accessible.
+> Zbog načina obrade PayPal plaćanja, posebno potvrde plaćanja, instalacija mora
+> biti javno dostupna.
 
-## Installation
+## Instalacija
 
-First of all, download the plugin:
+Najprije preuzmite dodatak:
 
-* [Get latest Paypal
-  plugin!](https://github.com/galette-plugins/plugin-paypal/releases/latest)
-* [Get Paypal plugin nightly
-  build!](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
+* [Preuzmite najnoviji dodatak
+  PayPal!](https://github.com/galette-plugins/plugin-paypal/releases/latest)
+* [Preuzmite noćnu razvojnu verziju dodatka
+  PayPal!](https://github.com/galette-plugins/plugin-paypal/releases/tag/nightly)
 
-Extract the downloaded archive in Galette `plugins` directory. For example,
-under linux (replacing `{url}` and `{version}` with correct values):
+Raspakirajte preuzetu arhivu u Galetteovu mapu `plugins`. Primjerice, na Linuxu
+(zamijenite `{url}` i `{version}` odgovarajućim vrijednostima):
 
 ```bash
 $ cd /var/www/html/galette/plugins
@@ -45,34 +45,29 @@ $ wget {url}
 $ tar xjvf galette-plugin-paypal-{version}.tar.bz2
 ```
 
-## Database initialisation
+## Inicijalizacija baze podataka
 
-In order to work, this plugin requires several tables in the database. See
-[Galette plugins management
-interface](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment).
+Dodatak zahtijeva nekoliko tablica u bazi. Pogledajte [sučelje za upravljanje
+dodacima
+Galettea](https://doc.galette.eu/en/master/plugins/index.html#plugins-managment).
 
-And this is finished; Paypal plugin is installed :)
+Gotovo; dodatak PayPal je instaliran :)
 
-## Plugin configuration
+## Podešavanje dodatka
 
-Once plugin has been installed, a `Paypal` group is added to the menu, with some
-new entries:
+Nakon instalacije u izbornik se dodaje odjeljak `Paypal` s novim stavkama:
 
-* `Payment form`: the payment form itself, which is accessible as a public page,
-* `Preferences`: plugin preferences, accessible for administrators and staff
-  members.
+* `Obrazac za plaćanje`: sam obrazac, dostupan kao javna stranica,
+* `Postavke`: postavke dodatka dostupne administratorima i upravi.
 
-In order to work properly, you need to fill a very important value: your Paypal
-account code. You can either use the email address associated with your Paypal
-account (but you will need to change it in Galette if it changes on Paypal) or
-your merchant identifier. To find your merchant identifier, log in to Paypal and
-you will find it in your account preferences. Changing identifier is only
-allowed for administrators.
+Za ispravan rad morate unijeti identifikator PayPal računa. Možete koristiti
+povezanu adresu e-pošte, ali je tada treba promijeniti i u Galetteu ako je
+promijenite u PayPalu, ili identifikator trgovca. Potonji ćete pronaći u
+postavkama PayPal računa nakon prijave. Identifikator smiju mijenjati samo
+administratori.
 
-Preferences screen also permit to edit amount related to contributions types,
-and to hide some types.
+U postavkama možete uređivati iznose za vrste uplata i sakriti pojedine vrste.
 
-After that, any user can choose the contribution type, adjust the amount and pay
-from his Paypal account. If the user is a logged in member, and if the
-contribution type is a membership extension, its membership will be recalculated
-when the payment will be confirmed.
+Nakon toga svaki korisnik može odabrati vrstu uplate, prilagoditi iznos i
+platiti svojim PayPal računom. Ako je korisnik prijavljeni član i odabrana vrsta
+produljuje članstvo, članstvo se preračunava nakon potvrde plaćanja.
