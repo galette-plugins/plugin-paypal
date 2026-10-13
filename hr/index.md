@@ -1,37 +1,39 @@
 ---
 title: Galette Paypal
-description: Paypal integration
+description: Integracija s PayPalom
 ---
 
-> **Warning**
+> **Upozorenje**
 > 
-> PayPal is discontinuing its legacy Website Payments Standard (WPS)
-> integration, with full transaction processing termination scheduled for
-> January 2027. This plugin is **not compatible** with any other integration.
+> PayPal ukida staru integraciju Website Payments Standard (WPS), a potpuni
+> prestanak obrade transakcija planiran je za siječanj 2027. Dodatak **nije
+> kompatibilan** ni s jednom drugom integracijom.
 
-A [Galette](https://galette.eu) plugin to let members pay their membership fees
-and donations through Paypal.
+Dodatak za [Galette](https://galette.eu) koji članovima omogućuje plaćanje
+članarine i donacija putem PayPala.
 
-This plugin provides:
+Dodatak omogućuje:
 
-* possibility to associate an amount to a contribution type,
-* create a Paypal payment form,
-* an history,
-* automatic transaction storage once validated.
+* pridruživanje iznosa vrsti uplate,
+* izradu obrasca za plaćanje putem PayPala,
+* pregled povijesti,
+* automatsko spremanje transakcije nakon potvrde.
 
-* [documentation](documentation.html)
-* [bugs and features](https://bugs.galette.eu/projects/galette-plugin-paypa)
-* [source code](https://github.com/galette-plugins/plugin-paypal)
-* mailing lists:
-  [users](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
-  [developers](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
+* [dokumentacija](documentation.html)
+* [pogreške i nove
+  funkcije](https://bugs.galette.eu/projects/galette-plugin-paypa)
+* [izvorni kod](https://github.com/galette-plugins/plugin-paypal)
+* popisi za e-poštu:
+  [korisnici](https://lists.mailman3.com/postorius/lists/galette-users.mailman3.com/),
+  [razvojni
+  tim](https://lists.mailman3.com/postorius/lists/galette-devel.mailman3.com/)
 
-To use it you need a recent enough Galette — the required version is shown at
-the top of this page — and the plugin itself, either by:
+Potrebna je dovoljno nova verzija Galettea; tražena verzija navedena je na vrhu
+stranice. Sam dodatak možete nabaviti:
 
-* downloading it with the buttons at the top of this page,
-* or using the [source code from the
-  repository](https://github.com/galette-plugins/plugin-paypal), which requires
-  some technical skills.
+* preuzimanjem putem gumba na vrhu stranice,
+* ili uporabom [izvornog koda iz
+  repozitorija](https://github.com/galette-plugins/plugin-paypal), za što je
+  potrebno tehničko znanje.
 
-See the [documentation](documentation.html) for the installation steps.
+Upute za instalaciju potražite u [dokumentaciji](documentation.html).
