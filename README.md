@@ -27,6 +27,10 @@ To use Galette Paypal plugin, you'll need a reliable Galette version, and of cou
 
 ### Français
 
+> [!WARNING]
+> PayPal va fermer son intégration dépréciée Website Payments Standard (WPS), l'arrêt complet de toute transaction est planifié pour Janvier 2027.
+> Ce plugin **est incompatible** avec toute autre intégration.
+
 Un plugin [Galette](https://galette.eu) pour gérer les paiements de cotisation et de dons via Paypal.
 
 Ce plugin est développé et maintenu par l'**équipe Galette**, comme Galette lui-même — contrairement à la plupart des plugins hébergés dans cette organisation, qui sont maintenus par la communauté.
