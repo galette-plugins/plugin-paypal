@@ -3,9 +3,15 @@ title: Galette Paypal
 description: Paypal integration
 ---
 
+> **Important**
+> This plugin is discontinued; there will be ne new releases.
+> 
+> You can possibly switch to [Galette Stripe plugin](https://galette-plugins.github.io/plugin-stripe/) or [Galette HelloAsso plugin](https://galette-plugins.github.io/plugin-helloasso/).
+
 > **Warning**
 >
 > PayPal is discontinuing its legacy Website Payments Standard (WPS) integration, with full transaction processing termination scheduled for January 2027.
+> 
 > This plugin is **not compatible** with any other integration.
 
 A [Galette](https://galette.eu) plugin to let members pay their membership fees
