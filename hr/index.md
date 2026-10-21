@@ -3,11 +3,19 @@ title: Galette Paypal
 description: Integracija s PayPalom
 ---
 
+> **Important** This plugin is discontinued; there will be ne new releases.
+> 
+> You can possibly switch to [Galette Stripe
+> plugin](https://galette-plugins.github.io/plugin-stripe/) or [Galette
+> HelloAsso plugin](https://galette-plugins.github.io/plugin-helloasso/).
+
 > **Upozorenje**
 > 
-> PayPal ukida staru integraciju Website Payments Standard (WPS), a potpuni
-> prestanak obrade transakcija planiran je za siječanj 2027. Dodatak **nije
-> kompatibilan** ni s jednom drugom integracijom.
+> PayPal is discontinuing its legacy Website Payments Standard (WPS)
+> integration, with full transaction processing termination scheduled for
+> January 2027.
+> 
+> This plugin is **not compatible** with any other integration.
 
 Dodatak za [Galette](https://galette.eu) koji članovima omogućuje plaćanje
 članarine i donacija putem PayPala.

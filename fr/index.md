@@ -3,11 +3,19 @@ title: Galette Paypal
 description: Intégration Paypal
 ---
 
+> **Important** This plugin is discontinued; there will be ne new releases.
+> 
+> You can possibly switch to [Galette Stripe
+> plugin](https://galette-plugins.github.io/plugin-stripe/) or [Galette
+> HelloAsso plugin](https://galette-plugins.github.io/plugin-helloasso/).
+
 > **Attention**
 > 
-> PayPal met fin à son intégration historique de paiement (WPS), la fermeture
-> complète est prévue pour janvier 2027. Ce plugin est **non compatible** avec
-> toute autre intégration.
+> PayPal is discontinuing its legacy Website Payments Standard (WPS)
+> integration, with full transaction processing termination scheduled for
+> January 2027.
+> 
+> This plugin is **not compatible** with any other integration.
 
 Un plugin [Galette](https://galette.eu) qui permet aux adhérents de payer leurs
 cotisations et effectuer des dons via Paypal.
