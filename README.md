@@ -1,7 +1,13 @@
 # Galette Paypal plugin
 
+> [!IMPORTANT]
+> This plugin is discontinued; there will be ne new releases.
+> 
+> You can possibly switch to [Galette Stripe plugin](https://galette-plugins.github.io/plugin-stripe/) or [Galette HelloAsso plugin](https://galette-plugins.github.io/plugin-helloasso/).
+
 > [!WARNING]
 > PayPal is discontinuing its legacy Website Payments Standard (WPS) integration, with full transaction processing termination scheduled for January 2027.
+> 
 > This plugin is **not compatible** with any other integration.
 
 [![GitHub license](https://img.shields.io/github/license/galette-plugins/plugin-paypal)](https://github.com/galette-plugins/plugin-paypal/blob/master/COPYING)
@@ -27,8 +33,14 @@ To use Galette Paypal plugin, you'll need a reliable Galette version, and of cou
 
 ### Français
 
+> [!IMPORTANT]
+> Ce plugin est abandonné ; il n'y aura pas de nouvelles versions.
+> 
+> Vous pouvez éventuellement passer au [plugin Galette Stripe](https://galette-plugins.github.io/plugin-stripe/) ou au [plugin Galette HelloAsso](https://galette-plugins.github.io/plugin-helloasso/).
+
 > [!WARNING]
 > PayPal va fermer son intégration dépréciée Website Payments Standard (WPS), l'arrêt complet de toute transaction est planifié pour Janvier 2027.
+> 
 > Ce plugin **est incompatible** avec toute autre intégration.
 
 Un plugin [Galette](https://galette.eu) pour gérer les paiements de cotisation et de dons via Paypal.
